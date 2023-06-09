@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-image: url('../../public/assets/pexels-pascal-küffer-12367166.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    background-color: #eed4bd7f;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.header-button {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    text-transform: lowercase !important;
+    font-weight: 500 !important;
+    height: 2.25rem;
+}
+
+.capitalize-first-letter {
+    text-transform: capitalize !important;
+}
+
+.fs-18{
+    font-size: 18px !important;
+}
+
+.fs-15{
+    font-size: 15px !important;
+}
+
+.footer-sub-menu{
+    font-size: 12px !important;
+    text-transform: uppercase;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-21{
+    margin-bottom: 21px;
+}
+
+.mb-17 {
+    margin-bottom: 17px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.pb-21 {
+    padding-bottom: 21px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.login-button {
+    border: 1px solid darkblue !important;
+    border-radius: 25px !important;
+    text-transform: capitalize !important;
+    height: 2.25rem;
+}
+
+.cleartip {
+    display: flex;
+    color: orangered;
+    align-self: center !important;
+}
+
+.sub-part {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sub-part2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    background-color: orangered !important;
+    color: #ffffff !important;
+    width: 100%;
+    text-transform: capitalize !important;
+}
+
+.as {
+    display: flex;
+}
+
+.as2 {
+    color: blue;
+}
+
+.sub-menu {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+.sub-menu-selected {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+}
+
+.footer {
+    border: 1px solid lightgray;
+    padding: 5px;
+    height: 7vh;
+    /* position: absolute;
+    bottom: 0px; */
+}
+
+.tooltip{
+    background-color: orangered !important;
+    color: #ffffff !important;
+    padding: 0px;
+}
+
+.label {
+    color: gray;
+}
+
+.display {
+    background-color: #f4e6fb;
+    color: indigo;
+    padding: 5px;
+}
+
+.typo{
+    font-weight: 500 !important;
+}
+
+
+.hr {
+    border-bottom: 1px solid lightgray;
+    padding-top: 17px;
+}
